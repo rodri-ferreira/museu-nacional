@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu nacional</title>
+    <meta name="description" content="Conheça o nosso museu nacional localizado em são paulo">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header> <!--comeco Cabecalho-->
+        <h1 id="titulo-logo"><a href=""><img src="img/logo.png" alt="imagem do logo escrito museu nacional"></a></h1>
+
+        <nav>
+            <ul id="navegacao-cabecalho">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EXPOSIÇÕES</a></li>
+                <li><a href="#">PESQUISA</a></li>
+                <li><a href="#">ACERVO</a></li>
+                <li><a href="#">VÍDEOS</a></li>
+                <li><a href="#">FOTOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header> <!--fim Cabecalho-->
+
+    <main> <!--Conteudo principal-->
+        <article id="conteudo-principal"> 
+            <section id="imagem-museu"> 
+                <img src="img/museu.png" alt="Imagem do museu nacional">
+            </section>
+
+            <section id="conheca-museu">
+                <div class="conheca-mapa-video">
+                    <h2>VÍDEO: CONHEÇA O MUSEU</h2>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <h2 class="titulo-abaixo">EXPOSIÇÕES</h2>
+
+                    <ul id="lista-exposicoes">
+                        <li><a href="#">Os assustadores insetos</a></li>
+                        <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                        <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                        <li><a href="#">Plantas do Brasil Central</a></li>
+                        <li><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                        <li><a href="#">Arte Com Dinossauros - Paleoarte</a></li>
+                        <li><a href="#" id="veja-todos">Veja todos (65)</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="conheca-mapa-video">
+                    <h2>MAPA: CONHEÇA O MUSEU</h2>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.905760000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sus!4v1678317496632!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <h2 class="titulo-abaixo">200 ANOS DE HISTÓRIA</h2>
+
+                    <P>Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.</P>
+
+                    <a href="#">Leia mais</a>
+                </div>
+            </section>
+
+        </article> <!--Secao a esquerda-->
+
+        <aside> <!--Secao a direita-->
+            <img src="img/depoimento.png" alt="imagem com a seguinte escrita: Museu nacional criado em 1922, é um dos mais importantes museus do brasil reunindo um acervo de mais de 250000 itens">
+           
+            <form action="" >
+                    <fieldset>
+                        <h3>FAÇA UMA VISITA</h3>
+                        <label for="" id="data">data</label>
+                        <input type="date">
+                        <label for="">Qtd de pessoas</label>
+                        <input type="text" id="qtd"><br>
+                        <input type="submit" id="btn-sub" value="verificar disponibilidade">
+                    </fieldset>
+            </form>
+
+            <div id="galeria-fotos">
+                <h2>GALERIA DE FOTOS</h2>
+
+                <div id="fotos">
+                    <div class="fotos-galeria">
+                        <a href="#"><img src="img/imagem1.jpg" alt=""></a>
+                    </div>
+
+                    <div class="fotos-galeria">
+                        <a href="#"><img src="img/imagem2.jpg" alt=""></a>
+                    </div>
+                    
+                    <div class="fotos-galeria">
+                        <a href="#"><img src="img/imagem3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="fotos-galeria">
+                        <a href="#"><img src="img/imagem4.jpg" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </aside> <!--Secao a direita-->
+    </main> <!--Conteudo principal-->
+    
+    <footer> <!--Footer-->
+        <hr>
+        <ul id="nav-footer">
+            <li><a href="#">home</a></li>
+            <li><a href="#">exposições</a></li>
+            <li><a href="#">pesquisa</a></li>
+            <li><a href="#">acervo</a></li>
+            <li><a href="#">vídeos</a></li>
+            <li><a href="#">fotos</a></li>
+            <li><a href="#">contato</a></li>
+        </ul>
+
+        <h4>2019 Museu Nacional - Todos os direitos reservados.</h4>
+    </footer> <!--Fim footer-->
+
+</body>
+</html>

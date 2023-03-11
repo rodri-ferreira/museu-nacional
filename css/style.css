@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+body{
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*CABEÇALHO*/
+
+header{ 
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header #titulo-logo{
+    color: white;
+    float: left;
+    margin: 30px 0;
+}
+
+#navegacao-cabecalho{
+    float: right;
+    margin: 35px 50px 0 0 ;
+}
+
+#navegacao-cabecalho li{
+    display: inline;
+}
+
+#navegacao-cabecalho li a{
+    text-decoration: none;
+    color:#af670a;
+    padding: 10px;
+}
+
+#navegacao-cabecalho li a:hover{
+    color: #227115;
+}
+
+/*FIM CABEÇALHO*/
+/*CONTEUDO PRINCIPAL (MAIN) COMEÇO*/
+
+main{
+    width: 1080px;
+    margin: 0px auto;
+}
+
+#conteudo-principal{
+    width: 65%;
+    float: left;
+    clear: both;
+}
+
+#imagem-museu{
+    display: block;
+}
+
+#conheca-museu{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conheca-mapa-video{
+    width: 45%;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+.conheca-mapa-video h2{
+    color: #227115;
+    font-weight: bold;
+}
+
+.conheca-mapa-video iframe{
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;   
+}
+
+.conheca-mapa-video p{
+    margin-bottom: 10px;
+}
+
+.conheca-mapa-video a{
+    color: #af670a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titulo-abaixo{
+    margin: 20px 0;
+}
+
+#lista-exposicoes{
+    list-style-type: disc;
+    margin: 0 30px 0 40px;
+}
+
+#lista-exposicoes li a{
+    font-weight: 100;
+}
+
+#lista-exposicoes li #veja-todos{
+    font-weight:bolder;
+}
+
+aside{
+    width: 32.5%;
+    float: right;
+    background: #ebe7dd;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    margin-top: 10px;
+    background: #d3bb7f;
+    padding: 25px 25px;
+    border: none;
+}
+
+form h3{
+    color: #774402;
+}
+
+#data{
+    margin-left: 5px;
+}
+
+#qtd{
+    width: 30px;
+    margin-right: 5px;
+}
+
+#btn-sub{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #b9a182;
+    border: none;
+}
+
+#galeria-fotos{
+    width: 100%;
+}
+
+#galeria-fotos h2{
+    margin: 20px; 
+}
+
+#fotos{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.fotos-galeria{
+    background: url(../img/fundo-foto.png) no-repeat content-box;
+    height: 131px;
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+
+.fotos-galeria a img{ 
+    display: block;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+/*CONTEUDO PRINCIPAL (MAIN) FIM*/
+/*FOOTER*/
+
+footer{
+    clear: both;
+    margin: 0px auto;
+}
+
+hr{
+    margin: 0 500px;
+}
+
+#nav-footer{
+    display: block;
+    width: 392px;    
+    margin: 5px auto; 
+}
+
+#nav-footer li{
+    display: inline;
+    padding: 5px;
+}
+
+#nav-footer li a{
+    text-decoration: none;
+    color: #b9a182;
+}
+
+footer h4{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*FIM FOOTER*/
